@@ -1,0 +1,41 @@
+
+/* Custom Styles preserved from index.html */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-dark {
+    background: rgba(34, 16, 19, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.red-glow {
+    box-shadow: 0 0 30px rgba(237, 38, 68, 0.2);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #221013;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ed2644;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c01b33;
+}

@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { IMAGES } from '../constants';
 import { Phone, Mail, MessageCircle } from 'lucide-react';

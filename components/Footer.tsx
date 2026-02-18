@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { Plane } from 'lucide-react';
+import React from 'react';
 import { NAV_LINKS, IMAGES } from '../constants';
 
 const Footer: React.FC = () => {
